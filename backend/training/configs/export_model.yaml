@@ -1,0 +1,10 @@
+# Base Model and Adapter Path
+model_name_or_path: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+adapter_name_or_path: ../saves/deepseek-r1-qlora
+template: deepseek
+finetuning_type: lora
+
+# Export Settings
+export_dir: ../export/deepseek-r1-custom
+export_size: 2
+export_device: cpu
